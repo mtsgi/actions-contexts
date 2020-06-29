@@ -1,0 +1,12 @@
+name: Push Event
+
+on: push
+
+jobs:
+  echo-context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo context
+        run: |
+          echo '${{ toJSON(github) }}'
+          echo '${{ toJSON(runner) }}'
