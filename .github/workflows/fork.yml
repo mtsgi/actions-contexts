@@ -1,6 +1,6 @@
-name: Push Event
+name: Fork Event
 
-on: push
+on: fork
 
 jobs:
   echo-context:

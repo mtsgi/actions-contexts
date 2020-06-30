@@ -1,6 +1,8 @@
-name: Push Event
+name: Pull Request(edited) Event
 
-on: push
+on:
+  pull_request:
+    types: edited
 
 jobs:
   echo-context:

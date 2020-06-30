@@ -1,6 +1,6 @@
-name: Push Event
+name: Pull Request Review Event
 
-on: push
+on: pull_request_review
 
 jobs:
   echo-context:

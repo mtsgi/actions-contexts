@@ -1,6 +1,8 @@
-name: Push Event
+name: Pull Request(assigned) Event
 
-on: push
+on:
+  pull_request:
+    types: assigned
 
 jobs:
   echo-context:

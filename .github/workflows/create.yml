@@ -1,6 +1,6 @@
-name: Push Event
+name: Create Event
 
-on: push
+on: create
 
 jobs:
   echo-context:

@@ -1,6 +1,8 @@
-name: Push Event
+name: Issue(edited) Event
 
-on: push
+on:
+  issues:
+    types: edited
 
 jobs:
   echo-context:
