@@ -1,6 +1,6 @@
-name: Push Event
+name: Delete Event
 
-on: push
+on: delete
 
 jobs:
   echo-context:

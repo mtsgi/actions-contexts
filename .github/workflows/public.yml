@@ -1,6 +1,6 @@
-name: Push Event
+name: Public Event
 
-on: push
+on: public
 
 jobs:
   echo-context:

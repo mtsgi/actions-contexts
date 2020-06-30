@@ -1,6 +1,6 @@
-name: Push Event
+name: Release Event
 
-on: push
+on: release
 
 jobs:
   echo-context:
