@@ -1,8 +1,8 @@
-name: Issue(opened) Event
+name: Issue(closed) Event
 
 on:
   issues:
-    types: opened
+    types: closed
 
 jobs:
   echo-context:
